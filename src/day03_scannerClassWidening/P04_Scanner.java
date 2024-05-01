@@ -1,4 +1,4 @@
-package day03_scannerWrapperWidening;
+package day03_scannerClassWidening;
 
 import java.util.Scanner;
 

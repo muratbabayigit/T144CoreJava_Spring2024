@@ -1,6 +1,6 @@
-package day03_scannerWrapperWidening;
+package day03_scannerClassWidening;
 
-public class P06_datacasting {
+public class P06_dataCasting {
     public static void main(String[] args) {
 
 

@@ -1,4 +1,4 @@
-package day03_scannerWrapperWidening;
+package day03_scannerClassWidening;
 
 public class P05_dataCasting {
     public static void main(String[] args) {
