@@ -22,7 +22,8 @@ public class P03_WrapperClass {
 
         System.out.println(sayi3+sayi4);//2543
 
-        int sayi5=Integer.parseInt(sayi3);
+        int sayi5=27;
+
         int sayi6=Integer.parseInt(sayi4);
 
         //"show_menu_1" ["show_menu_"+Integer.parseInt(sayi)]
