@@ -14,7 +14,8 @@ public class P04_ifStatements {
             System.out.println("a b'den büyük");
         }
 
-        if (a<b){
+        boolean sonuc=a<b;
+        if (sonuc){
             System.out.println();
         }
 
