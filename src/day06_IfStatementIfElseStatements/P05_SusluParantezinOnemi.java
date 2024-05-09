@@ -1,4 +1,4 @@
-package day06_IfStatementIfElseStatementsTernary;
+package day06_IfStatementIfElseStatements;
 
 public class P05_SusluParantezinOnemi {
     public static void main(String[] args) {

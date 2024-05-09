@@ -1,4 +1,4 @@
-package day06_IfStatementIfElseStatementsTernary;
+package day06_IfStatementIfElseStatements;
 
 
 import java.util.Scanner;

@@ -1,6 +1,4 @@
-package day06_IfStatementIfElseStatementsTernary;
-
-import com.sun.security.jgss.GSSUtil;
+package day06_IfStatementIfElseStatements;
 
 import java.util.Scanner;
 
