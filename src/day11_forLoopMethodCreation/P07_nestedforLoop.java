@@ -1,5 +1,7 @@
 package day11_forLoopMethodCreation;
 
+import day12_Methods.P03_AsalSayiSonucuYazdirma;
+
 import java.util.Scanner;
 
 public class P07_nestedforLoop {
@@ -48,7 +50,7 @@ public class P07_nestedforLoop {
             System.out.println();
         }
 
-
+        P03_AsalSayiSonucuYazdirma.asalSayiMiyazdir(25);
 
 
     }
