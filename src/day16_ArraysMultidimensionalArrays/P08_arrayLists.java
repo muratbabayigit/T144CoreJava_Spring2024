@@ -9,7 +9,7 @@ public class P08_arrayLists {
     public static void main(String[] args) {
 
 
-    //Arrayler yeni eleman eklemeye izin vermemesi nedniyle esnek çalışmayı kısıtlar
+    // Arrayler yeni eleman eklemeye izin vermemesi nedeniyle esnek çalışmayı kısıtlar
     // Bu nedenle array ile liste hazırlamak zordur.
     // Bu durumda arraylerin alt yaıpısını kullanana List'ler tercih edilir
     // List'ler elemen eklemeye ve boyut değiştirmeye izin verirler

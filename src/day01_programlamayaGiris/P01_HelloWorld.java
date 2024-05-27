@@ -27,6 +27,8 @@ public class P01_HelloWorld {
               Fakat // işareti sadece bir satır için geçerlidir.
         */
 
+        System.out.println(2531%7);
+
 
 
     }

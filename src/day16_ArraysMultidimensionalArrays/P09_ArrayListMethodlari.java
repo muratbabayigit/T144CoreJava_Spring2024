@@ -80,6 +80,10 @@ public class P09_ArrayListMethodlari {
         System.out.println(kelimeler.indexOf("Rana")); // 3
         System.out.println(kelimeler.lastIndexOf("Rana")); //3
 
+        //list'in bir bölümünü almak için subList() methodu ile yapılır.
+        System.out.println(kelimeler.subList(1,3));  //index'i 1'den 3'e kadar olanlar
+
+
 
 
 
