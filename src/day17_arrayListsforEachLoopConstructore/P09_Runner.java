@@ -14,6 +14,25 @@ public class P09_Runner {
          */
 
         /*
+        Biz bir classtan obje oluşturduğumuzda
+        o objenin oluşturulduğu class'taki
+        tüm variable ve method'ların
+        bir kopyasını da oluşturmuş oluruz.
+
+        dolaysıyla sadece variable ve methodlara ulaşmakla kalmaz
+        o class'ta atanmış olan değerlere de sahip olur
+
+        java'da bir obje oluşturduğumuzda
+        objenin oluşturulduğu class'taki consrtuctor çalışır
+        Constructor çalışınca oluşturulan objeye
+        ilk değerlerini atıyor(initialize)
+
+        Biz bir class oluşturunca herhengi bi constructor görmüyoruz.
+        Fakat bir değer ataması yapabilmek için constructor çalıştıırılması zorunludur.
+        Java bunu bildiği için her class olutrduğumuzda bir DEFAULT constructor'ı gizli olarak oluşturuyor
+        Biz eğer kendimiz bir parametresiz constructor oluturusak default siliniyor
+
+
 
          */
 
