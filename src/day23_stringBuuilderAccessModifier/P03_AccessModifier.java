@@ -1,7 +1,7 @@
 package day23_stringBuuilderAccessModifier;
 
 public class P03_AccessModifier {
-    int defSayi=10;  //java access modifier olarak default atadı
+   int defSayi=10;  //java access modifier olarak default atadı
     // default int sayi2=10; default gorunur olarak atanamaz
     private int privSayi=20;
     protected int ProSayi=30;
@@ -32,7 +32,7 @@ public class P03_AccessModifier {
         System.out.println("Protected mehod çalıştı");
     }
 
-     void methodDefault() {
+    void methodDefault() {
         System.out.println("Default method çalıştı");
     }
 

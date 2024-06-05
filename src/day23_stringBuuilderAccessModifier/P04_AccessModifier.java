@@ -10,5 +10,6 @@ public class P04_AccessModifier {
         System.out.println(obj.defSayi);  //aynı package içinde olduğumuz için ulaşbildik
         System.out.println(obj.ProSayi);  //aynı package içinde olduğumuz için ulaşbildik
 
+
     }
 }

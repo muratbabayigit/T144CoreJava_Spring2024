@@ -26,6 +26,9 @@ public class P01_StringBuilder {
 
         System.out.println(str3.toString().toLowerCase()); //java candır
         System.out.println(str3); // Java Candır
+        System.out.println(str3.reverse());//rıdnaC avaJ
+
+
 
 
     }

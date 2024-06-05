@@ -1,4 +1,4 @@
-package day24;
+package day24_accessModifierEncapsulation;
 
 import day23_stringBuuilderAccessModifier.P03_AccessModifier;
 

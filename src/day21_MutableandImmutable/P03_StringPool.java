@@ -30,5 +30,7 @@ public class P03_StringPool {
         System.out.println(str1==str7); //false
         System.out.println(str1==str8); //false
         System.out.println(str1=="Ali");  //true
+
+
     }
 }
