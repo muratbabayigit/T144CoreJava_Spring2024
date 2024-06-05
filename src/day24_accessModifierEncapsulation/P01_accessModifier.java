@@ -10,5 +10,7 @@ public class P01_accessModifier {
         //System.out.println(obj.privSayi);
         //System.out.println(obj.defSayi);
         //System.out.println(obj.ProSayi);
+        obj.publicSayi=30;
+        System.out.println(obj.publicSayi);
     }
 }

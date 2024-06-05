@@ -9,8 +9,6 @@ public class P02_accessModifierChildClass extends P03_AccessModifier {
         System.out.println(obj.ProSayi);
         obj.ProSayi=100;
 
-
-
     }
 
 
