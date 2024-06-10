@@ -28,6 +28,10 @@ public class P05_childClass extends P04_parentClass{
         method1();// Child Method - 1
         this.method1(); //Child Method - 1
         super.method1(); //Parent Method - 1
+        this.method2(); //Parent Method - 2
+        super.method2(); //Parent Method - 2
+        this.method3(); //Child Method - 3
+        //super.method3(); CTE
 
     }
 
@@ -36,8 +40,8 @@ public class P05_childClass extends P04_parentClass{
             bir variable ya da method kullanmak isterseniz
             java aşağıdaki sıra ile mariable/method'u arar
             1-İçinde olunan scope
-            2-İçinde olunan class
-            3-Extends edilen parent
+            2-İçinde olunan class (this)
+            3-Extends edilen parent (super)
          */
 
 
