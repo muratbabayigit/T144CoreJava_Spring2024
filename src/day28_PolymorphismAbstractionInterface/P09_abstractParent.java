@@ -5,10 +5,11 @@ public abstract class P09_abstractParent extends P06_AbstractClassGP {
     // abstract methodları override etmeke ZORUNDA DEĞİLDİR
     // Eğer kod yazan isterse override edebilir
 
-    public abstract void  method1();
+    public  abstract  void  method1();
 
     public void method2() {
         System.out.println("abstract parent method 2");
+
     }
 
     public abstract void method3();
@@ -19,7 +20,7 @@ public abstract class P09_abstractParent extends P06_AbstractClassGP {
 
 
 
-    
+
     public void method7(){
         System.out.println("abstract parent method 7");
     };
