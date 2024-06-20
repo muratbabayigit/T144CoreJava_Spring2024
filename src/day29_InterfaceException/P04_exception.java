@@ -24,8 +24,8 @@ public class P04_exception {
             str=null;
 
             System.out.println(str);
-            System.out.println(str.length());
-        } catch (Exception e) {
+            System.out.println(str.length()); //NullPointerException
+        } catch (NullPointerException e) {
 
             System.out.println("Dertler of Levent");
          }
