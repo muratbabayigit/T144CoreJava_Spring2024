@@ -11,14 +11,14 @@ public class P03_multipleException {
 
 
         /*
-        Kullnıcıdan bir sayı alıp, bu sayıyı index olarak kaydedip
+        Kullanıcıdan bir sayı alıp, bu sayıyı index olarak kaydedip
         str ve array'deki o indexte yer alan elemanı yazdırın
 
         input:3  output: a,d
          */
 
         Scanner scan=new Scanner(System.in);
-        System.out.println("Aradığınız index numarasını giriniz: ");
+        System.out.print("Aradığınız index numarasını giriniz: ");
         int indexNo=scan.nextInt();
 
         //Eğer olası hata durumları birbirleriyle ilinitili değilse(parent-child)
@@ -52,6 +52,7 @@ public class P03_multipleException {
 
         //2- Bir adet try ile birden fazla catch bağlamak
 
+        /*
         try {
             System.out.print(str.charAt(indexNo));//StringIndexOutOfBoundsException
             System.out.print(harfler[indexNo]);//ArrayIndexOutOfBoundsException
@@ -60,7 +61,15 @@ public class P03_multipleException {
         } catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Girilen değer Array için aralık dışındadır!");
         }
+         */
 
+        //3- bir adet try ile geniş kapsamlı bir catch kullanrak işlem yapılabilir
 
+        try {
+            System.out.print(str.charAt(indexNo));//StringIndexOutOfBoundsException
+            System.out.print(harfler[indexNo]);//ArrayIndexOutOfBoundsException
+        } catch (RuntimeException e) {
+            System.out.println("Girilen değer index sınırları dışında");
+        }
     }
 }
