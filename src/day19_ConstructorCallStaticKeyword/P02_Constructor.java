@@ -1,4 +1,4 @@
-package day19_ConstructorCollStaticKeyword;
+package day19_ConstructorCallStaticKeyword;
 
 public class P02_Constructor {
     String isim="Ahmet";
