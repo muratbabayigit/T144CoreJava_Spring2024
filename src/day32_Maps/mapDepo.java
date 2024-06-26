@@ -18,7 +18,8 @@ public class mapDepo {
         ogrenciMap.put(108,"Rana-Ülker-12-A-EA");
 
         return ogrenciMap;
-    }public static String getBolum(Map<Integer, String> ogrenciMap, int istenenNo){
+    }
+    public static String getBolum(Map<Integer, String> ogrenciMap, int istenenNo){
 
      String bilgi = ogrenciMap.get(istenenNo); //107 ise ----> Berk-Yiğit-10-A-SÖZ
 
